@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yl.databindingdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.BaseUseActivity" />
+        <activity android:name=".ui.EventHandlingActivity" />
+        <activity android:name=".ui.LayoutDetailActivity" />
+        <activity android:name=".ui.ObservableActivity" />
+        <activity android:name=".ui.DoubleBindingActivity" />
+        <activity android:name=".ui.RecyclerViewActivity" />
+        <activity android:name=".ui.CustomAttributeActivity" />
+        <activity android:name=".ui.MultiRecyclerViewActivity" />
+        <activity android:name=".ui.ViewStubActivity" />
+    </application>
+
+</manifest>
